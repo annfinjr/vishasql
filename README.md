@@ -23,6 +23,7 @@ time-blind, and union-based** injection, plus union data extraction.
 git clone https://github.com/annfinjr/vishasql.git
 cd vishasql
 pip3 install requests
+python3 vishasql.py
 
 GET request with query params
 python3 vishasql.py "http://target/item.php?id=1"
